@@ -49,10 +49,11 @@ export default function Navbar() {
           ))}
           <ThemeToggle />
           <Button asChild>
-            <a href="#" id="resume-button">
+            <a href="/Ambar Zara.pdf" id="resume-button" download target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </Button>
+
         </nav>
 
         {/* Mobile Navigation Toggle */}

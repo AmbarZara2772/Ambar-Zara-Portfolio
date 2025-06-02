@@ -39,19 +39,20 @@ export default function About() {
             <div className="md:col-span-2">
               <Card className="p-6 bg-background/50 backdrop-blur-sm">
                 <h3 className="text-xl font-semibold mb-4 text-primary">Who am I?</h3>
-                <p className="text-foreground/80 mb-4">
-                  I'm Ambar Zara, a Junior Full Stack Developer with over 6 months of industrial experience. I'm
-                  passionate about creating efficient, user-friendly web applications using modern technologies.
-                </p>
-                <p className="text-foreground/80 mb-4">
-                  My journey in web development started during my BSCS studies at Government College University
-                  Faisalabad (GCUF), where I developed a strong foundation in computer science principles and
-                  programming.
-                </p>
-                <p className="text-foreground/80 mb-6">
-                  I specialize in front-end technologies like React, Next.js, and various CSS frameworks, as well as
-                  back-end technologies including Node.js, Express, and Adonis.js.
-                </p>
+               <p className="text-foreground/80 mb-4">
+  I'm Ambar Zara, a Junior Full Stack Developer with over 1.5 years of industrial experience. I'm
+  passionate about creating efficient, user-friendly web applications using modern technologies.
+</p>
+<p className="text-foreground/80 mb-4">
+  My journey in web development started during my BSCS studies at Government College University
+  Faisalabad (GCUF), where I developed a strong foundation in computer science principles and
+  programming.
+</p>
+<p className="text-foreground/80 mb-6">
+  I specialize in front-end technologies like React, Next.js, and various CSS frameworks, as well as
+  back-end technologies including Node.js, Express, and Adonis.js.
+</p>
+
 
                 <div className="flex flex-wrap gap-4">
                   <Button asChild variant="outline">

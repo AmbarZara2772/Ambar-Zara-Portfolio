@@ -26,7 +26,7 @@ export default function Hero() {
               <span className="text-primary">Hello, I'm</span> <br />
               Ambar Zara
             </h1>
-            <h2 className="text-2xl md:text-3xl font-medium text-foreground/80 mb-6">Full Stack Developer</h2>
+            <h2 className="text-2xl md:text-3xl font-medium text-foreground/80 mb-6">Mid Level Developer</h2>
             <p className="text-lg text-foreground/70 mb-8 max-w-2xl mx-auto md:mx-0">
               Passionate about creating responsive, user-friendly web applications with modern technologies. Specialized
               in React, Next.js, and Node.js.

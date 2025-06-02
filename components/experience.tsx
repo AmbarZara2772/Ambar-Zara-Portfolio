@@ -13,7 +13,7 @@ const experiences = [
     period: "October 2024 - Present",
     location: "OnSite",
     description:
-      "Working on multiple live projects including germanguestpost.com, autopublish.fun, maristochats.fr, joaquinsabina.net, theprominente.de, and theberlinmag.de. Developing responsive front-end interfaces and implementing back-end functionality.",
+      "Leading the development of full-stack web applications across various domains. Collaborating with cross-functional teams to build scalable, maintainable, and user-centric solutions. Responsible for developing dynamic front-end UIs using React and Next.js and building robust back-end APIs using Node.js and Express.",
     projects: [
       { name: "German Guest Post", url: "https://germanguestpost.com/en" },
       { name: "Auto Publish", url: "https://autopublish.fun/" },
@@ -22,19 +22,61 @@ const experiences = [
       { name: "The Prominente", url: "https://theprominente.de/" },
       { name: "The Berlin Mag", url: "https://theberlinmag.de/" },
     ],
-    skills: ["React", "Next.js", "Node.js", "Express.js", "Tailwind CSS"],
+    skills: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "REST APIs",
+      "MongoDB",
+      "Git",
+    ],
+  },
+  {
+    company: "Tekbex",
+    position: "Full Stack Developer",
+    period: "January 2024 - September 2024",
+    location: "OnSite",
+    description:
+      "Worked on both front-end and back-end development of web platforms. Contributed to designing reusable UI components, integrating third-party APIs, and optimizing application performance. Participated in daily stand-ups and agile sprint planning, ensuring timely project delivery.",
+    projects: [
+      { name: "TopSpot", url: "https://portal.topspotmedia.net/auth/login" },
+      { name: "Tekbex", url: "https://tekbex.com/" },
+      { name: "Choicedone", url: "https://choicedone.com/" },
+    ],
+    skills: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT Auth",
+      "API Integration",
+    ],
   },
   {
     company: "TheMillionsBit",
     position: "Frontend Developer Intern",
-    period: "August 2024 - October 2024",
+    period: "November 2023 - December 2023",
     location: "OnSite",
     description:
-      "Completed internship working on practice projects and contributed to the development of Muhafiz Oxygen's website. Focused on creating responsive user interfaces and implementing design requirements.",
-    projects: [{ name: "Muhafiz Oxygen", url: "https://www.muhafizoxygen.com/" }],
-    skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+      "Completed a 2-month internship focused on developing responsive front-end layouts and implementing client UI requirements. Contributed to the live deployment of the Muhafiz Oxygen project and gained hands-on experience in real-world product development.",
+    projects: [
+      { name: "Muhafiz Oxygen", url: "https://www.muhafizoxygen.com/" },
+    ],
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Version Control (Git)",
+    ],
   },
-]
+];
+
 
 export default function Experience() {
   const [ref, inView] = useInView({
