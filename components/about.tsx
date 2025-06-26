@@ -40,7 +40,7 @@ export default function About() {
               <Card className="p-6 bg-background/50 backdrop-blur-sm">
                 <h3 className="text-xl font-semibold mb-4 text-primary">Who am I?</h3>
                <p className="text-foreground/80 mb-4">
-  I'm Ambar Zara, a Junior Full Stack Developer with over 3+ years of industrial experience. I'm
+  I'm Ambar Zara, a Junior Full Stack Developer with 1.5 years of industrial experience. I'm
   passionate about creating efficient, user-friendly web applications using modern technologies.
 </p>
 <p className="text-foreground/80 mb-4">
